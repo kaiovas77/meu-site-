@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RLM JORGE CYSNEIROS</title>
+    <title>Jorge Cysneiros | Professor de Matemática e RLM para Concursos</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #1a1a1a;
+            color: #f4f4f9;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #FF8C00;
             color: white;
             padding: 1em 0;
             text-align: center;
-            border-bottom: 5px solid #388E3C;
+            border-bottom: 5px solid #FF6500;
         }
         main {
             padding: 2em;
             max-width: 1200px;
             margin: 0 auto;
-            border: 2px solid #ddd;
-            background-color: #fff;
+            border: 2px solid #FF8C00;
+            background-color: #333;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
         .gallery {
             display: flex;
@@ -34,24 +34,40 @@
             gap: 15px;
             justify-content: center;
             margin-top: 1em;
-            border-top: 2px solid #ddd;
+            border-top: 2px solid #FF8C00;
             padding-top: 1em;
         }
         .gallery img {
-            width: 200px;
-            height: 150px;
+            width: 300px;
+            height: 200px;
             object-fit: cover;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border: 2px solid #4CAF50;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            border: 2px solid #FF8C00;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .gallery img:hover {
             transform: scale(1.05);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
+        }
+        .cta {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .cta a {
+            text-decoration: none;
+            background-color: #FF8C00;
+            color: white;
+            padding: 0.8em 2em;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+        .cta a:hover {
+            background-color: #FF6500;
         }
         footer {
-            background-color: #333;
+            background-color: #111;
             color: white;
             text-align: center;
             padding: 1em 0;
@@ -59,7 +75,7 @@
             border-top: 5px solid #444;
         }
         h2 {
-            border-bottom: 3px solid #4CAF50;
+            border-bottom: 3px solid #FF8C00;
             display: inline-block;
             padding-bottom: 0.5em;
         }
@@ -70,22 +86,24 @@
 </head>
 <body>
     <header>
-        <h1>RLM JORGE CYSNEIROS</h1>
+        <h1>Jorge Cysneiros | Professor de Matemática e RLM para Concursos</h1>
     </header>
     <main>
         <h2>Bem-vindo ao nosso site!</h2>
-        <p>PREPARATORIO DE RACIOCINIO LOGICO PARA CONCURSOS :</p>
+        <p>Invista no seu futuro! Oferecemos os melhores cursos de Matemática e Raciocínio Lógico-Matemático para concursos públicos. Confira nossa galeria e aproveite!</p>
 
         <div class="gallery">
-            <img src="https://drive.google.com/file/d/1v1NV_qZfRu_Qb7BYbVtxk03VFkIVBJFi/view?usp=drive_link" alt="Imagem 1">
-            <img src="https://drive.google.com/file/d/1vAgLyKcOU2PNKTC6LnGjuewwhrhaoJJM/view?usp=drive_link" alt="Imagem 2">
-            <img src="https://drive.google.com/file/d/1Vk86MYBAXBzy0CqCQmARgyqYAROScQgo/view?usp=sharing" alt="Imagem 3">
-            <img src="https://via.placeholder.com/200x150" alt="Imagem 4">
-            <img src="https://via.placeholder.com/200x150" alt="Imagem 5">
+            <img src="https://drive.google.com/uc?export=view&id=1vAgLyKcOU2PNKTC6LnGjuewwhrhaoJJM" alt="Imagem 1">
+            <img src="https://drive.google.com/uc?export=view&id=1mqg4mVmDqIBqmq8w4hraN-uKADnejPDo" alt="Imagem 2">
+            <img src="https://drive.google.com/uc?export=view&id=1v1NV_qZfRu_Qb7BYbVtxk03VFkIVBJFi" alt="Imagem 3">
+        </div>
+
+        <div class="cta">
+            <a href="https://suaplataforma.com/curso-de-matematica" target="_blank">Acesse o curso agora</a>
         </div>
     </main>
     <footer>
-        <p>&copy; 2025 RLM JORGE CYSNEIROS. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Jorge Cysneiros. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
