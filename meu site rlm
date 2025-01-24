@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RLM JORGE CYSNEIROS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            border-bottom: 5px solid #388E3C;
+        }
+        main {
+            padding: 2em;
+            max-width: 1200px;
+            margin: 0 auto;
+            border: 2px solid #ddd;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 1em;
+            border-top: 2px solid #ddd;
+            padding-top: 1em;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 2px solid #4CAF50;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+            border-top: 5px solid #444;
+        }
+        h2 {
+            border-bottom: 3px solid #4CAF50;
+            display: inline-block;
+            padding-bottom: 0.5em;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RLM JORGE CYSNEIROS</h1>
+    </header>
+    <main>
+        <h2>Bem-vindo ao nosso site!</h2>
+        <p>PREPARATORIO DE RACIOCINIO LOGICO PARA CONCURSOS :</p>
+
+        <div class="gallery">
+            <img src="https://via.placeholder.com/200x150" alt="Imagem 1">
+            <img src="https://via.placeholder.com/200x150" alt="Imagem 2">
+            <img src="https://via.placeholder.com/200x150" alt="Imagem 3">
+            <img src="https://via.placeholder.com/200x150" alt="Imagem 4">
+            <img src="https://via.placeholder.com/200x150" alt="Imagem 5">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 RLM JORGE CYSNEIROS. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
